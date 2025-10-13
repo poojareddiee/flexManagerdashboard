@@ -11,7 +11,7 @@ export default function Dashboard() {
   useEffect(() => {
     setLoading(true)
     const q = new URLSearchParams(filters).toString()
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/reviews/hostaway?${q}`)
+    fetch('https://flex-managerdashboard-kpj8.vercel.app/api/reviews/hostaway?' + q)
       .then(r => r.json())
       .then(d => setReviews(d.data || []))
       .finally(() => setLoading(false))

@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 const path = require('path');
 app.use(cors({
-  origin: ['https://flexmanager-frontend.vercel.app', 'http://localhost:3000'],
+  origin: ['https://flex-managerdashboard-6dcu.vercel.app', 'http://localhost:3000'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
