@@ -22,3 +22,4 @@ Notes:
 - Backend serves mocked reviews at /api/reviews/hostaway
 - Frontend uses Tailwind, Framer Motion and Recharts for visualization
 //doing changes in the github by closning adding 
+Make changes in README file and also add extra line in frontend
